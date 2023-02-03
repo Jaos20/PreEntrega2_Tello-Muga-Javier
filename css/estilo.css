@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+header{
+    display: none;
+}
+/*header*/
+.container-fluid{
+    background-color: #f0911e;
+    
+}
+
+.navbar.bg-body-tertiary.fixed-top{
+    padding: 0;
+}
+.navbar-toggler{
+    border: 0;
+}
+.navbar.bg-body-tertiary.fixed-top h1{
+    font-size: 1.7rem;
+    font-style: oblique;
+    left: 10px;
+    top: 5px;
+}
+.offcanvas-header{
+    background-color: #f0911e;
+    border-bottom: 5px black solid;
+}
+.offcanvas.offcanvas-end{
+    background-color: beige;
+    border-left: 5px black solid;
+    border-top: 5px black solid;
+}
+
+/*index.html*/
+main{
+    text-align: center;
+    background-color: beige;
+    margin-bottom: 10px;
+}
+.frase{
+    padding: 20px;
+    font-size: 3rem;
+    margin-top: 5rem;
+    padding-bottom: 0;
+}
+.autor-frase{
+    
+    position: relative;
+    font-size: 1.0rem;
+    font-style: italic;
+    background-color: #f0911e;
+    border-bottom:4px black solid ;
+    
+}
+.conteinerfrase{
+    
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.conteiner{
+    max-width: 700px;
+    margin: auto;
+}
+
+footer{
+    color: #ffffffa2;
+    text-align: center;
+}
+footer img{
+    width: 2rem;
+    background-color: #ffffffa2;
+    margin: 0 4px 0 4px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+
+/* ------MUSICA------- */
+
+/* ------video-principal------- */
+.video-contenedor {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+    
+}
+.video-contenedor iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.conteinermp4{
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+.lineavideo{
+    padding: 10px 30px 10px 30px;
+    top: 10px;
+    margin: auto;
+}
+.lineavideo2{
+    background-color: white;
+    height: 5px;
+    margin: auto;
+}
+.video{
+    padding: 10px;
+}
+.video h2{
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    margin-top: 70px;
+}
+
+.contenedordiscografia{
+    text-align: center;
+}
+.discografia{
+    display: inline-block;
+    font-size: 1rem;
+    color: white;
+}
+.carousel.slide{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.carousel-caption a{
+    text-decoration: none;
+    color: #eca043;
+}
+.carousel-caption a h3{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    margin-top: 7px;
+    
+}
+.carousel-caption p{
+    display: none;
+}
+
+/*-------REDES-------*/
+.fondovideo{
+    background-image: linear-gradient(to bottom, rgba(238, 137, 6, 0.26) 50%, rgba(5, 5, 5, 0.89) 90%), url(../img/fondovideo.jpg);
+    margin-top: 5px;
+    height: 100vh;
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    
+}
+.redeshtml img{
+    width: 50px;
+    padding: 5px;
+    background-color: white;
+    border: 5px #f0911e solid;
+}
+.redeshtml{
+    
+    display: inline-block;
+    text-align: center;
+    margin-top: 450px;
+    max-width: 370px;
+}
+.redeshtml h3{
+    color: white;
+}
+/* ------USUARIO------- */
+.Usuario{
+    max-width: 350px;
+    margin: auto;
+    padding: 0.8rem 0.8rem;
+    border: 10px #eca043 solid;
+    box-shadow: 10px 10px 10px white;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+.Usuario h2{
+    text-align: center;
+    border-bottom: 5px black solid;
+    margin-bottom: 10px;
+    color: white;
+}
+.insertar{
+    text-align: center;
+    display: block;
+    padding: 3px;
+    width: 100%;
+    border: 3px black solid;
+    margin-bottom: 10px;
+}
+.enviar{
+    width: 100%;
+    background-color: beige;
+    margin-bottom: 10px;
+}
+.enviar:hover{
+    cursor: pointer;
+}
+.Usuario p{
+    text-align: center;
+}
+.olvidaste{
+    position: relative;
+    top: 5px;
+    color: white;
+}
+.crearcuenta{
+    color: #f0911e;
+}
+
+
+
+
+/*lavuelta.html*/
+.contenedordlavuelta{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 10px;
+    margin: auto;
+    top: 35px;
+    background-color: black;
+    margin-top: 40px;
+    text-align: center;
+}
+.lavuelta{
+    font-size: 1rem;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.musicahtml{
+    border: 0.7rem black solid;
+    padding: 20px;
+    
+}
+.accordion-collapse.collapse{
+    justify-items: center;
+    margin: auto;
+}
+.accordion-body{
+    padding: 0;
+}
+.accordion-body h3{
+    font-size: 1rem;
+}
+.accordion-body audio{
+    
+    background-color: #000000d0;
+    padding:10px;
+    width: 100%;
+    outline: none;
+}
+
+.card{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card.uno{
+    background-color:rgba(0, 0, 0, 0.692) ;
+    margin: auto;
+    
+
+}
+.card.uno img{
+    border: 1rem #ffffff94 solid;
+    
+}
+
+
+
+
+
+/* ------MEDIA------- */
+@media (min-width:1024px) {
+    .contenedordlavuelta{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        padding: 10px;
+        margin: auto;
+        background-color: black;
+    }
+    .video h2{
+        position: relative;
+        text-align: center;
+        font-size: 1rem;
+        color: white;
+        margin-top: 30px;
+    }
+    .lavuelta{
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+        
+    }
+/*-------INICIO-------*/
+    .navbar.bg-body-tertiary.fixed-top{
+    display: none;
+    }
+    header{
+        display: block;
+    }
+    header img{
+        position: relative;
+        width: 250px;
+        display: inline-block;
+        border-radius: 200px;
+        border: 5px blanchedalmond solid;
+        right: 490px;
+        bottom: 10px;
+    }
+    header{
+        text-align: center;
+        background-color: #f0911e;
+        padding-top: 20px;
+    }
+
+    header h1{
+        position:relative;
+        font-size: 3rem;
+        font-style: oblique;
+        display: inline-block;
+        width: 140px;
+        right: 480px;
+        top: 28px;
+    }
+    header nav{
+        position: relative;
+        left: 500px;
+        bottom: 9px;
+        display: inline-block;
+        text-transform: uppercase;
+        border: 5px black solid;
+        background-color:beige;
+        padding: 5px;
+        min-width: 320px;
+    }
+    header ul{
+        padding: 0;
+        margin: 0;
+    }
+    header ul li{
+        display: inline-block;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 1.4rem;
+    }
+    header ul li :hover{
+        color: #f0911e;
+    }
+
+    header .menu{   
+        text-decoration: none;
+        color:black;
+
+    }
+    .frase{
+        margin-top: 1rem;
+    }   
+    /*------MUSICA------*/
+    .video h2{
+        font-size: 1.5rem;
+    }
+    .conteinermp4{
+      max-width: 800px;
+    }
+    .discografia{
+        font-size: 1.5rem;
+    }
+    .carousel.slide{
+        width: 550px;
+    }
+    .carousel-caption a h3{
+        font-size: 20px;
+        top: 0px;
+    }
+    .carousel-caption p{
+        font-size: 14px;
+        top: 0px;
+    }
+
+}
+
